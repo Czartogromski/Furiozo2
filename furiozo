@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piotr Sikora - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+        .main-photo {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Piotr Sikora - Performer and Comedian</h1>
+    <img src="2404furiozo0001.jpg" alt="Piotr Sikora" class="main-photo">
+</header>
+
+<nav>
+    <a href="#biography">Biography</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#shows">Shows</a>
+    <a href="#workshops">Workshops</a>
+    <a href="#improv">Improv Experience</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="biography">
+    <div class="container">
+        <h2>Biography</h2>
+        <p>
+            I am a well-established performer in Poland. I started my career in 2012 and was part of the movement that created the modern improv scene in Poland. I am still part of Klancyk, the oldest improv theater in Poland. I am part of Klub Komediowy, the first comedy club in Poland, and Resort Komedii - home of Polish alternative comedy in Warsaw. In 2013, I also started my teaching career at Szkoła Impro. I have over 1,000 hours of experience teaching beginners and advanced improvisers. I have performed in around 1,100 improv shows in my career. Since 2017, I have opened a new chapter in my life - physical theater and clowning. I have studied in schools all around the world, following masters of this art form: Philippe Gaulier, Paola Coletto, Matteo Destro, Aitor Basauri, and Avner Eisenberg. I studied in France, the USA, Italy, and the UK. As a clown performer, since I started fringe festivals in 2022, I have managed to build a successful career, and my work is respected at international festivals. Since 2023, I have won two awards with my solo clown show Furiozo: Man Looking For Trouble. This show is my main area of activity. It is a contemporary clown show which depicts themes of toxic masculinity and social rejection. The message is powerful, and no matter where I go, I earn the respect of the audience. This year I am returning to Edinburgh and am invited to the prestigious venue Underbelly. I am also invited to Germany and the Mumbai Comedy Festival in December. I am applying for a visa because I believe that the UK and London are places where I can continue growing my career. I already managed to build a strong network of support and I want to reinforce it. I plan to write new shows and enrich the scene of comedy with my work. If I am granted the visa, I plan to teach clowning and open a clown school focusing on bringing clowning to local communities in London, helping people at all stages of their artistic development from beginners to advanced performers. My work is to help people open up to creativity to become better performers. I also want to write new shows and tour internationally with these shows. Every year I want to take part in the Edinburgh Fringe Festival to present my work and constantly improve my skills. I want to build strong connections with the UK and help facilitate intercultural exchange between Poland and the UK, bringing UK teachers and performers to Poland and attracting Polish performers with the work that is done in the UK. For example, thanks to my activity, the Edinburgh Fringe has become a reality for many Polish performers. Before I participated in the Fringe, no Polish comedians thought it was possible to come to Edinburgh. Watching me succeed in Edinburgh put the UK on their map and now they are also getting inspired and coming to see shows in Scotland.
+        </p>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Add your images here -->
+            <img src="2404furiozo0004.jpg" alt="Performance Image 1">
+            <img src="2404furiozo0008.jpg" alt="Performance Image 2">
+            <img src="2404furiozo0016.jpg" alt="Performance Image 3">
+            <img src="2404furiozo0025.jpg" alt="Performance Image 4">
+            <img src="2404furiozo0031.jpg" alt="Performance Image 5">
+            <img src="2404furiozo0034.jpg" alt="Performance Image 6">
+            <img src="2404furiozo0039.jpg" alt="Performance Image 7">
+            <img src="2404furiozo0050.jpg" alt="Performance Image 8">
+            <img src="2404furiozo0058.jpg" alt="Performance Image 9">
+            <img src="2404furiozo0059.jpg" alt="Performance Image 10">
+        </div>
+    </div>
+</section>
+
+<section id="shows">
+    <div class="container">
+        <h2>Shows</h2>
+        <ul>
+            <li>Furiozo: Man Looking For Trouble - Edinburgh Fringe Festival, Underbelly (2023)</li>
+            <li>Performance in Germany - (Upcoming)</li>
+            <li>Mumbai Comedy Festival - (Upcoming)</li>
+            <!-- Add more shows here -->
+        </ul>
+    </div>
+</section>
+
+<section id="workshops">
+    <div class="container">
+        <h2>Workshops</h2>
+        <p>Information about the workshops you offer, including dates, locations, and descriptions.</p>
+    </div>
+</section>
+
+<section id="improv">
+    <div class="container">
+        <h2>Improv Experience</h2>
+        <h3>Klancyk</h3>
+        <p>Description of your work with Klancyk.</p>
+        <h3>Hofesinka</h3>
+        <p>Description of your work with Hofesinka.</p>
+        <h3>Solo Projects (Piotr z Aktorem)</h3>
+        <p>Description of your solo projects.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
